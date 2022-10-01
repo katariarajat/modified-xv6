@@ -1,6 +1,6 @@
 # Modifications to the xv6 operating system
 
-## By Shradha Sehgal (2018101071)
+## By Rajat kumar (2019101020)
 
 ## Overview
 
@@ -287,7 +287,6 @@ if (myproc() && myproc()->state == RUNNING && tf->trapno == T_IRQ0 + IRQ_TIMER)
         // cprintf("ysfn");
         yield();
 
-    #endif
     #endif
 }
 ```
